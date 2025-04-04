@@ -7,15 +7,3 @@ It is an autoregressive character-level language model, offering a range of arch
 This project uses a dataset of ~45,000 company names to train the model.
 
 textforge is lightweight, educational, and designed to be easily hackable. Built with PyTorch, it requires minimal setup and runs on most machines without a GPU.
-
-## Model Architectures
-
-The current implementation includes several model types based on key deep learning papers:
-
-- **Bigram** – One character predicts the next using a lookup table of counts
-- **MLP** – Following Bengio et al. (2003)
-- **CNN** – Inspired by DeepMind's WaveNet (2016)
-- **RNN** – Based on Mikolov et al. (2010)
-- **LSTM** – Following Graves et al. (2014)
-- **GRU** – From Kyunghyun Cho et al. (2014)
-- **Transformer** – Based on Vaswani et al. (2017)
